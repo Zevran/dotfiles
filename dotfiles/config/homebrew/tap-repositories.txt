@@ -1,0 +1,11 @@
+caskroom/cask
+crisidev/chunkwm
+garethr/kubeval
+homebrew/bundle
+homebrew/core
+homebrew/php
+homebrew/services
+koekeishiya/formulae
+kong/kong
+wallix/awless
+wata727/tflint

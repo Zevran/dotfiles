@@ -3,4 +3,22 @@ config:
   create: true
   dotpath: dotfiles
 dotfiles:
+  d_homebrew:
+    dst: ~/.config/homebrew
+    src: config/homebrew
+  d_uberischt:
+    dst: ~/.config/uberischt
+    src: config/uberischt
+  d_vscode:
+    dst: ~/.config/vscode
+    src: config/vscode
+  f_gitignore_global:
+    dst: ~/.gitignore_global
+    src: gitignore_global
 profiles:
+  gael-reyrol.local:
+    dotfiles:
+    - f_gitignore_global
+    - d_homebrew
+    - d_uberischt
+    - d_vscode
