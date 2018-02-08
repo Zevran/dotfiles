@@ -12,9 +12,15 @@ dotfiles:
   d_vscode:
     dst: ~/.config/vscode
     src: config/vscode
+  f_chunkwmrc:
+    dst: ~/.chunkwmrc
+    src: chunkwmrc
   f_gitignore_global:
     dst: ~/.gitignore_global
     src: gitignore_global
+  f_khdrc:
+    dst: ~/.khdrc
+    src: khdrc
 profiles:
   gael-reyrol.local:
     dotfiles:
@@ -22,3 +28,5 @@ profiles:
     - d_homebrew
     - d_uberischt
     - d_vscode
+    - f_chunkwmrc
+    - f_khdrc
